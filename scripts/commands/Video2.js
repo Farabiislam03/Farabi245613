@@ -11,7 +11,7 @@ module.exports.config = {
 };
 
 
-module.exports🌚.run = async function({
+module.exports.run = async function({
 	event: e,
 	api: a,
 	args: n
