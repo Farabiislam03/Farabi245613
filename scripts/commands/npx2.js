@@ -19,12 +19,12 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://i.imgur.com/Yc2atQe.mp4',
+      'https://drive.google.com/uc?id=1N1-kBpAKdwVY_b48uhBT7Gy7fO98Q2kz',
       { responseType: 'stream' }
     )
   ).data;
 
-	if (body.indexOf("Love")==0 || body.indexOf("❤️‍🔥")==0 || body.indexOf("💌")==0 || body.indexOf("💘")==0 || body.indexOf("💟")==0 || body.indexOf("I love u")==0 || body.indexOf("I love you")==0 || body.indexOf("valobashi")==0 || body.indexOf("Valobashi")==0 || body.indexOf("🖤")==0) {
+	if (body.indexOf("🍼")==0 || body.indexOf("❤️‍🔥")==0 || body.indexOf("💌")==0 || body.indexOf("💘")==0 || body.indexOf("💟")==0 || body.indexOf("I love u")==0 || body.indexOf("I love you")==0 || body.indexOf("valobashi")==0 || body.indexOf("Valobashi")==0 || body.indexOf("🖤")==0) {
 		var msg = {
 				body: "ভালোবাসা সুন্দর🖤",
 				attachment: media
